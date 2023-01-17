@@ -23,3 +23,9 @@ void PrintArray(string[] array)
     Console.Write($"{array[i]} ");
     Console.WriteLine();
 }
+
+System.Console.WriteLine("Начальный массив");
+PrintArray(beginArray);
+GetArrEnd(beginArray,endArray);
+System.Console.WriteLine("Элементы массива с длинной меньше или равной 3");
+PrintArray(endArray);

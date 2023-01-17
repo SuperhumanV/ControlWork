@@ -12,6 +12,7 @@ beginArray,string[] endArray)
         if (beginArray[i].Length<=3)
         {
             endArray[count] = beginArray[i];
+            count++;
         }
     }
 }
